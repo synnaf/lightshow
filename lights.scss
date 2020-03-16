@@ -20,14 +20,15 @@ main {
             div {
                 align-self: center;
                 margin:10px;
-                width:8px;
-                height:8px;
+                width:6px;
+                height:6px;
                 background-color:lemonchiffon;
                 box-shadow: 8px 0px 12px lemonchiffon;
-                opacity:0.8;
+                border-radius: 50% 50%;
+                opacity:0.6;
             }
             .test {
-                box-shadow: 18px 0px 22px lemonchiffon;
+                box-shadow: 28px 0px 18px lemonchiffon;
                 opacity:1;
             }
          }
