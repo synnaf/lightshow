@@ -1,0 +1,15 @@
+{
+  "name": "lights",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lights.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass --watch lights.scss lights.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

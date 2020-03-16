@@ -1,0 +1,84 @@
+
+main {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    .background {
+        display:grid;     
+        width:800px;
+        height:500px;
+        background: rgb(35,18,46);
+        background: linear-gradient(45deg,
+         rgba(35,18,46,0.8952513966480447) 0%,
+         rgba(17,13,51,1) 50%,
+         rgba(1,2,25,1) 100%);
+         .first-row, .second-row, .third-row {
+            display:flex;
+            flex-direction:row;
+            justify-content: space-around; 
+            div {
+                align-self: center;
+                margin:10px;
+                width:8px;
+                height:8px;
+                background-color:lemonchiffon;
+                box-shadow: 8px 0px 12px lemonchiffon;
+                opacity:0.8;
+            }
+            .test {
+                box-shadow: 18px 0px 22px lemonchiffon;
+                opacity:1;
+            }
+         }
+         .first-row {
+             .high-position {
+                transform: translate(30px, -50px);
+             }
+             .low-position {
+                transform: translate(3px, 40px);
+             }
+            .medium-position {
+                transform: translate(0, 0.7px);
+            }
+         }
+         .second-row {
+            .high-position {
+                transform: translate(20px, -60px);
+             }
+             .low-position {
+                transform: translate(0, 0.7px);
+             }
+            .medium-position {
+                transform: translate(3px, 40px);
+            }
+        }
+         .third-row {
+            .high-position {
+                transform: translate(3px, 40px);
+             }
+             .low-position {
+                transform: translate(20px, -60px);
+             }
+            .medium-position {
+                transform: translate(0, 0.7px);
+            }
+         }
+
+    }
+    .buttons {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        margin: 20px;
+        width:70%;
+        button {
+            background-color:white;
+            border:2px solid black;
+            border-radius:50px 50px 0px 50px;
+            font-size: 30px;
+            width:50%;
+            margin: 10px;
+        }
+    }
+}

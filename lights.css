@@ -1,0 +1,57 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; }
+  main .background {
+    display: grid;
+    width: 800px;
+    height: 500px;
+    background: #23122e;
+    background: linear-gradient(45deg, rgba(35, 18, 46, 0.895251) 0%, #110d33 50%, #010219 100%); }
+    main .background .first-row, main .background .second-row, main .background .third-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      main .background .first-row div, main .background .second-row div, main .background .third-row div {
+        align-self: center;
+        margin: 10px;
+        width: 8px;
+        height: 8px;
+        background-color: lemonchiffon;
+        box-shadow: 8px 0px 12px lemonchiffon;
+        opacity: 0.8; }
+      main .background .first-row .test, main .background .second-row .test, main .background .third-row .test {
+        box-shadow: 18px 0px 22px lemonchiffon;
+        opacity: 1; }
+    main .background .first-row .high-position {
+      transform: translate(30px, -50px); }
+    main .background .first-row .low-position {
+      transform: translate(3px, 40px); }
+    main .background .first-row .medium-position {
+      transform: translate(0, 0.7px); }
+    main .background .second-row .high-position {
+      transform: translate(20px, -60px); }
+    main .background .second-row .low-position {
+      transform: translate(0, 0.7px); }
+    main .background .second-row .medium-position {
+      transform: translate(3px, 40px); }
+    main .background .third-row .high-position {
+      transform: translate(3px, 40px); }
+    main .background .third-row .low-position {
+      transform: translate(20px, -60px); }
+    main .background .third-row .medium-position {
+      transform: translate(0, 0.7px); }
+  main .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    width: 70%; }
+    main .buttons button {
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 50px 50px 0px 50px;
+      font-size: 30px;
+      width: 50%;
+      margin: 10px; }
